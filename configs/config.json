@@ -1,0 +1,22 @@
+{
+    "max_length": 512,
+    "padding": "max_length",
+    "truncation": "only_first",
+    "dropout": 0.2,
+    "lr": 0.00001,
+    "seed": 42,
+    "batch_size": 32,
+    "batch_size_val": 128,
+    "max_grad_norm": 10,
+    "model_name": "google-bert/bert-base-uncased",
+    "num_tags": 113,
+    "device": "cpu",
+    "task_specific_params" : "",
+    "architectures": [
+        "BertForTokenClassification"
+      ],
+    "_name_or_path": "google-bert/bert-base-uncased",
+    "model_type": "bert",
+    "use_cache": true,
+    "vocab_size": 30522
+}
